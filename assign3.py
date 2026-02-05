@@ -1,8 +1,5 @@
-item_name = "Laptop"
-quantity = 2
-price = 499.99
-in_stock = True
-print(f"Item: {item_name}, Qty: {quantity}, Price: {price}, Available: {in_stock}")
-total_cost = quantity * price
-print("Total Cost:", total_cost)
-#LETS MOVE THIS TO GITHUB
+friend_a = {"Python", "Cooking", "Hiking", "Movies"}
+friend_b = {"Hiking", "Gaming", "Photography", "Python"}
+print((friend_a).intersection(friend_b))
+print((friend_a).union(friend_b))
+print((friend_a).difference(friend_b))

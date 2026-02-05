@@ -1,0 +1,26 @@
+'''#dict.get(" ")
+#dict[" "]
+#dict.update({"key":"value"})
+#dict.keys()
+#dict.values()
+#dict.items()
+#dict.clear()
+#dict.pop(" ")  
+#dict.popitem()
+#dict.items()'''
+
+dict = {"name":"ayeza", "age":22, "location":"banglore"}
+print(dict["name"])
+print(dict.get("name"))
+dict.update({"name":"mariyam"})
+print(dict)
+dict.pop("age")
+print(dict)
+dict.popitem()
+print(dict)
+dict.keys()
+print(dict.keys())
+print(dict.values())
+print(dict.items())
+dict.clear()
+print(dict)
